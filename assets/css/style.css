@@ -89,19 +89,24 @@ h1, h2, h3 {
 
 .content {
     border-top: 2px solid #cccccc;
-    padding-top: 5px;
+    padding-top: 25px;
 }
 
-.content img{
+.content img {
     width: 200px;
     height: 200px;
     float: left;
     margin-right: 20px;
-    margin-top: 25px;
 }
 
-.content p{
+.content p {
     line-height: 2;
+    margin-top: -8px;
+    text-indent: 50px;
+}
+
+.content p:first-of-type {
+    text-indent: 0;
 }
 
 .sidebar {
@@ -127,6 +132,10 @@ h1, h2, h3 {
     padding-right: 0;
 }
 
+.form-group {
+    padding-bottom: 10px;
+}
+
 /* CONTENT STYLES END */
 
 /* FOOTER STYLES */
@@ -144,3 +153,33 @@ footer {
 }
 
 /* FOOTER STYLES END */
+
+/* INPUT STYLES */
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 12px 6px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    font-size: 14px;
+}
+
+input[type=submit] {
+    background: #4aaaa5;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #cccccc;
+    font-style: italic;
+}
+
+/* INPUT STYLES END */
