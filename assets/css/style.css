@@ -25,10 +25,29 @@ header {
     margin: 0 auto;
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     color: #4aaaa5;
+    display: block;
+    font-weight: bold;
 }
+
+h1 {
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+h2 {
+    font-size:  1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
 
 .logo {
     padding: 25px;
