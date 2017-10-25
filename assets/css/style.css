@@ -95,13 +95,13 @@ h2 {
     position: relative;
     overflow: auto;
     margin-top: 40px;
-    margin-bottom: 109px;
+    margin-bottom: 100px;
 }
 
 .main-content {
     background: #fff;
     padding: 20px;
-    width: 610px;
+    width: 608px;
     border: 1px solid #dddddd;
     float: left;
 }
@@ -131,7 +131,7 @@ h2 {
 .sidebar {
     background: #fff;
     padding: 20px;
-    width: 230px;
+    width: 228px;
     border: 1px solid #dddddd;
     float: right;
 }
@@ -192,6 +192,7 @@ footer {
     background: #666666;
     border-top: 5px solid #4aaaa5;
     position: fixed;
+    left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
