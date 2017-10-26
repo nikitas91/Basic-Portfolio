@@ -108,11 +108,7 @@ h2 {
 .content p {
     line-height: 2;
     margin-top: -8px;
-    text-indent: 50px;
-}
-
-.content p:first-of-type {
-    text-indent: 0;
+    margin-bottom: 25px;
 }
 
 .sidebar {
