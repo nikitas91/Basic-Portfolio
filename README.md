@@ -1,9 +1,9 @@
 # Basic-Portfolio
 
-This is my professional portfolio site. 
+This is my professional portfolio site.
 
 Author: Nikita Sasunkevich
-Assignment: Week 1 Assignment
+Week 1 Assignment: That Portfolio Though
 Class: UA Coding Bootcamp
 
 
