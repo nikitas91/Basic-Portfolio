@@ -1,2 +1,7 @@
 # Basic-Portfolio
-Basic Portfolio Assignment
+=============================
+Author: Nikita Sasunkevich
+Assignment: Week 1 Assignment
+Class: UA Coding Bootcamp
+=============================
+
