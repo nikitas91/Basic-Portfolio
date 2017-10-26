@@ -82,6 +82,7 @@ h2 {
     margin: 40px auto;
     position: relative;
     overflow: auto;
+    min-height: calc(100vh - 215px);
 }
 
 .main-content {
@@ -176,11 +177,11 @@ h2 {
 
 footer {
     background: #666666;
-    color: #c5c5c5;
-    position: relative;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
     border-top: 5px solid #4aaaa5;
-    padding: 20px 0;
+    color: #c5c5c5;
     font-size: 12px;
 }
 
