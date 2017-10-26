@@ -14,40 +14,9 @@ body {
 
 header {
     background: #ffffff;
-    width: 100%;
     border-bottom: 2px solid #cccccc;
     position: relative;
-    overflow: auto;
 }
-
-.header-container {
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-h1, h2 {
-    font-family: 'Georgia', 'Times New Roman', Times, serif;
-    color: #4aaaa5;
-    display: block;
-    font-weight: bold;
-}
-
-h1 {
-    font-size: 2em;
-    -webkit-margin-before: 0.67em;
-    -webkit-margin-after: 0.67em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-}
-
-h2 {
-    font-size:  1.5em;
-    -webkit-margin-before: 0.83em;
-    -webkit-margin-after: 0.83em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-}
-
 
 .logo {
     padding: 25px;
@@ -58,19 +27,18 @@ h2 {
 }
 
 .navbar {
-    display: block;
-    float: right;
+    width: 960px;
+    margin: 0 auto;
 }
 
 .navbar-nav {
     list-style-type: none;
-    margin: 0;
-    padding: 34px 0;
-    overflow: hidden;
+    float: right;
+    margin-top: 32px;
 }
 
 .navbar-nav li {
-    float: left;
+    display: inline;
     padding: 0 20px;
     border-right: 1px solid #EBEBEB;
 }
@@ -87,15 +55,33 @@ h2 {
 
 /* HEADER STYLES END */
 
+/* HEADING STYLES */
+
+h1, h2 {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size:  24px;
+    margin-bottom: 15px;
+}
+
+/* HEADING STYLES END */
+
 /* CONTENT STYLES */
 
 .content-area {
-    max-width: 960px;
-    margin: 0 auto;
+    width: 960px;
+    margin: 40px auto;
     position: relative;
     overflow: auto;
-    margin-top: 40px;
-    margin-bottom: 100px;
 }
 
 .main-content {
@@ -138,7 +124,7 @@ h2 {
 
 .sidebar-content {
     border-top: 2px solid #cccccc;
-    padding-top: 20px;
+    padding-top: 15px;
     text-align: center;
 }
 
@@ -190,13 +176,10 @@ h2 {
 
 footer {
     background: #666666;
-    border-top: 5px solid #4aaaa5;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
     color: #c5c5c5;
+    position: relative;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;
     padding: 20px 0;
     font-size: 12px;
 }
@@ -232,3 +215,9 @@ textarea::placeholder {
 }
 
 /* INPUT STYLES END */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
