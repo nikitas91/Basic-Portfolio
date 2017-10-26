@@ -107,8 +107,9 @@ h2 {
 
 .content p {
     line-height: 2;
-    margin-top: -8px;
     margin-bottom: 25px;
+    position: relative;
+    top: -10px;
 }
 
 .sidebar {
